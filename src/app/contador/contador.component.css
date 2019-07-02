@@ -1,0 +1,19 @@
+.row {
+    max-width: 50%;
+    margin: 0 auto !important;
+}
+
+.count {
+    text-align: center;
+    margin: auto 0;
+
+    
+}
+
+.left {
+    text-align: left !important;
+}
+
+.right {
+    text-align: right;
+}
