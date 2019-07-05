@@ -1,0 +1,11 @@
+form {
+    width: 18rem;
+    margin-bottom: 1.5em;
+}
+
+
+
+form > input, form > div {
+    margin-top: 5px;
+}
+

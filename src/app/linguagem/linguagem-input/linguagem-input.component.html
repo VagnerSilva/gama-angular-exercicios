@@ -1,0 +1,22 @@
+
+<form f="ngForm">
+    <input class="form-control form-control-sm" 
+            type="text" 
+            [(ngModel)] ="data.name"
+            name="name"
+            placeholder="Nome">
+    <input class="form-control form-control-sm" 
+            type="text"
+            [(ngModel)] ="data.creator"
+            name="creator"
+            placeholder="Criador">
+    <input class="form-control form-control-sm" 
+            type="date"
+            [(ngModel)] ="data.year"
+            name="year"
+            placeholder="Ano">
+    <div class="d-flex flex-row-reverse">
+        <button (click)="addLinguagem()" type="button" class="btn btn-success">Add</button>
+    </div>
+
+</form>
